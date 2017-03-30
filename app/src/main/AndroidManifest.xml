@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eventhorizon.meshu.eventhorizon">
+
+    <application
+        android:name="com.activeandroid.app.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.eventhorizon.meshu.eventhorizon.Model.User,com.eventhorizon.meshu.eventhorizon.Model.Event, com.eventhorizon.meshu.eventhorizon.Model.Host,com.eventhorizon.meshu.eventhorizon.Model.Cost" />
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="eventHorizon" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="13" />
+
+        <activity
+            android:name=".NewEvent"
+            android:label="Event" />
+        <activity
+            android:name=".NewHost"
+            android:label="Host" />
+        <activity
+            android:name=".CostActivity"
+            android:label="Cost List" />
+        <activity
+            android:name=".AddCostActivity"
+            android:label="Register Cost" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".AddUserActivity" />
+        <activity android:name=".ListOfUser"></activity>
+    </application>
+
+</manifest>

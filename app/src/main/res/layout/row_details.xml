@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@drawable/bglayer"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/LLevent"
+        android:layout_marginRight="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/event"
+            android:layout_marginBottom="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/LLevent"
+        android:layout_alignBaseline="@+id/LLevent"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event: A"
+            android:textStyle="bold"
+            android:id="@+id/userName"
+            android:layout_marginBottom="3dp"
+            android:textSize="18sp"
+            android:textColor="#097054"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event: A"
+            android:textStyle="bold"
+            android:id="@+id/userPhone"
+            android:layout_marginBottom="3dp"
+            android:textSize="18sp"
+            android:textColor="#097054"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event: A"
+            android:textStyle="bold"
+            android:id="@+id/userAddress"
+            android:layout_marginBottom="3dp"
+            android:textSize="18sp"
+            android:textColor="#097054"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
