@@ -5,6 +5,6 @@ Meal Management System is one kind of Human Resource Management System . It will
 
 License
 ---------------
-**&copy; 2015 Meshu Debnath, All rights reserved.**
+MIT
 
 
